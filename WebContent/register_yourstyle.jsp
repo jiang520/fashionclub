@@ -6,25 +6,37 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-<h1>Please choose your style:</h1>
-<div>
-	<div style="float:left;text-align:center;">
-		<img alt="" src=""  width=200px height=300px />
-		<br/>
-		<button>this is me</button>
+<body style="width:1024px; margin:0 auto;">
+<div><span style="font-size: 40px">FashionClub</span>
+	<div style="text-align: right; float: right; width:100px;vertical-align: middle;">
+		<a href="#">Login</a>
+		<a href="#">Sign in</a>
 	</div>
-	<div style="float:left;text-align:center;">
-		<img src="#" width=200px height=300px />
-		<br/>
-		<button>this is me</button>
+<hr/>
+</div>
+<h1>Choose your current style level</h1>
+<div style="padding:20px;">
+	<div style="float:left;text-align:center;padding:20px">
+		<img alt="" src="images/aficionado_v2.jpg"  width=240px height=250px />
+		<p style="width:200px;">For more details about the Service, please see www.trunkclub.com. With each trunk, 	</p>		
+		<button onclick="window.location.href='register_youwillstyel.jsp'">this is me</button>
 	</div>
-	<div style="float:left;text-align:center;">
-		<img src="#"  width=200px height=300px  />
-		<br/>
-		<button>this is me</button>
+	<div style="float:left;text-align:center;padding:20px">
+		<img src="images/clueless_v2.jpg" width=240px height=250px />
+		<p style="width:200px;">For more details about the Service, please see www.trunkclub.com. With each trunk, .	</p>
+		
+		<button onclick="window.location.href='register_youwillstyel.jsp'">this is me</button>
+	</div>
+	<div style="float:left;text-align:center;padding:20px">
+		<img src="images/confident_v2.jpg"  width=240px height=250px  />
+		<p style="width:200px;">For more details about the Service, please see www.trunkclub.com. With each trunk,</p>
+	
+		<button onclick="window.location.href='register_youwillstyel.jsp'">this is me</button>
 	</div>
 </div>
-
+<div class="footer" style="text-align: center;width:100%;float:none;display: block">
+	<hr/>
+	<p>About us</p>
+</div>
 </body>
 </html>

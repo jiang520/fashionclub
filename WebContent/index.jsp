@@ -8,9 +8,10 @@
 </head>
 <body style="width:800px;margin:auto 0;">
 <div><span style="font-size: 40px">FashionClub</span>
-	<div style="text-align: right; float: right; width:100px;vertical-align: middle;">
+	<div style="text-align: right; float: right; width:200px;vertical-align: middle;font-size: 20px;
+	margin:10px;">
 		<a href="#">Login</a>
-		<a href="#">Sign in</a>
+		<a href="register_yourstyle.jsp">GetStart</a>
 	</div>
 </div>
 <hr/>
