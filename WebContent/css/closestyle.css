@@ -1,0 +1,13 @@
+
+
+#stylediv
+{
+float:left;
+text-align:center;
+width:32%;
+margin-bottom: 20px;
+}
+#stylediv p
+{
+	text-align: center;	
+}

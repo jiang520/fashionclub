@@ -1,0 +1,39 @@
+
+
+#top
+{
+	height:60px;
+}
+#top div
+{
+	text-align: right; 
+	float: right; width:200px;
+	margin-top:20px;
+	margin-right:40px;
+}
+a {
+	text-decoration: none;
+}
+#center
+{
+	text-align: center;
+	margin: 0 auto;
+	width:1024px;
+	display: block;
+	clear: right;
+	padding:0 auto;
+}
+#clearfoot{
+	clear:left
+}
+#foot
+{
+	text-align: center;
+	width:100%;
+	display: block; 
+	clear:right;	
+}
+body{
+	width:1024px;
+	margin:0 auto;
+}

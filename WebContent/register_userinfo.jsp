@@ -4,31 +4,54 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>注册即将完成....</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
-<body style="width:1024px;margin:0 auto;">
-<div><span style="font-size: 40px">FashionClub</span>
-	<div style="text-align: right; float: right; width:100px;vertical-align: bottom;">
+<body>
+<div id="top">
+	<a href="index.jsp">
+	<span style="font-size: 40px">FashionClub</span>
+	</a>	
+	<div>
 		<a href="#">Login</a>
 		<a href="#">Sign in</a>
 	</div>
 <hr/>
 </div>
-<div style="padding:4px;margin:0 auto;width:800px;">
-<form action="post" style="padding:4px;">
-	<label>帐 号:</label><input type="text"/><br/>
-	<label>密 码:</label><input type="password"/><br/>
-	<label>邮 箱:</label>	<input type="password"/><br/>
-	<button>注册</button>
-	<hr/>
-	<label>身高(cm):</label><input type="text"/><br/>
-	<label>体重(kg):</label><input type="text"/><br/>
-	<label>肩宽(cm):</label><input type="text"/><br/>
-	<label>腰围(cm):</label><input type="text"/><br/>
-	<label>臀围(cm):</label><input type="text"/><br/>
-</form>
+
+<div id="center">
+<h1>即将完成注册...</h1>
+<form action="doregister.jsp" method="post" style="padding-left:30%;padding-right:30%;">
+<h2>必填注册信息</h2>
+	<table style="magin:0 auto; width:450px;text-align: left">
+		<tr>
+			<td><label>帐 号:</label></td>
+			<td><input type="text" name="account"/></td>
+			<td>5~40位</td>
+		</tr>
+		<tr><td>密码:</td>
+			<td><input type="password" name="pass"/></td>
+			<td>需输入6~20位</td>
+		</tr>
+		<tr><td><label>邮 箱:</label></td>
+			<td><input type="text" name="email"/></td>			
+			<td>此邮箱用于联系和找回密码</td>
+		</tr>
+		<tr><td></td>			
+	</table>
+	<h3>服装信息:您可以在以后完善此信息</h3>
+	<table>
+	<tr><td><label>身高(cm):</label></td><td><input type="text"/></td><td></td></tr>
+	<tr><td><label>体重(kg):</label></td><td><input type="text"/></td><td></td></tr>
+	<tr><td><label>肩宽(cm):</label></td><td><input type="text"/></td><td></td></tr>
+	<tr><td><label>腰围(cm):</label></td><td><input type="text"/></td><td></td></tr>
+	<tr><td><label>臀围(cm):</label></td><td><input type="text"/></td><td></td></tr>
+	</table>
+	<hr/>	
+	<div></div><input type="submit" value="注册"  maxlength="40px"/></div>
+</form>	
 </div>
-<div class="footer" style="text-align: center;display:block;">
+<div class="foot" style="text-align: center;display:block;">
 	<hr/>
 	<p>About us</p>
 </div>
